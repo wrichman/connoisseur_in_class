@@ -6,13 +6,12 @@ else
   puts "Ya, you passed in some arguments :)"
   
   if ARGV[0] == "index"
-
-  elsif ARVG[0] == "show"
-
+    puts "Action: index"
+  elsif ARGV[0] == "show"
+    puts "Action: show"
   else
     puts "Unrecognized action. Please refer to USAGE."
   end
-
 
 end
 
